@@ -5,10 +5,10 @@ const mysql = require('mysql');
 
 // 실제 DB 연결 정보
 const dbConfig = {
-  host: 'localhost',
-  user: 'root',
-  password: '1234',
-  database: 'rainbow_db_newsdashboard',
+  host: 'hahn-mysql.cfdffriv7us0.ap-northeast-2.rds.amazonaws.com',
+  user: 'admin',
+  password: '12341234',
+  database: 'rainbow_db_newsDashBoard',
 };
 
 // DB 연결 풀 생성
